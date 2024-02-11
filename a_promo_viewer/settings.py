@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'allauth.account',
 ]
 
-SITE_ID = 2
+SITE_ID = 3
 
 LOGIN_REDIRECT_URL = 'login'
 LOGOUT_REDIRECT_URL = '/'

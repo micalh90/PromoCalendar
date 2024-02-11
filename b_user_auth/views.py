@@ -8,3 +8,9 @@ def user_login(request):
         }
     
     return render(request, 'b_user_auth/login.html', content)
+
+def user_create(request):
+    content = {
+        'title': 'Create'
+        }
+    return render(request, 'b_user_auth/create_user.html', content)
