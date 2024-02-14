@@ -25,7 +25,6 @@ INSTALLED_APPS = [
     'b_landing_page',
     
     #LOGIN APPS
-    'b_user_auth',
     'allauth',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
