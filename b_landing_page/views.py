@@ -17,5 +17,6 @@ def user_login(request):
 def user_create(request):
     content = {
         'title': 'User Create'
-        }
+    }
+    
     return render(request, 'user_create.html', content)
